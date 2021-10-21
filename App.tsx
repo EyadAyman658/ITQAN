@@ -35,6 +35,8 @@ import SplashScreen from  "react-native-splash-screen";
      //@ts-ignore
      <AppContext>
      <SafeAreaView style={{flex:1}}>
+     {/* <StatusBar translucent={true} backgroundColor="transparent" barStyle="light-content" /> */}
+
         <AppContainer/>
      </SafeAreaView>
      </AppContext>

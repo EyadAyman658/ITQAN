@@ -1,6 +1,6 @@
 export interface State
 {
-    vacationlist:any
+    lang:string
 }
 
 export type StoreApi=

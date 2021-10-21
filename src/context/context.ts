@@ -3,7 +3,7 @@ import {StoreApi,State} from './index.interface'
 
 export const initialState :State =
 {
-   vacationlist:[]
+   lang:''
 }
 
 export default createContext<StoreApi>

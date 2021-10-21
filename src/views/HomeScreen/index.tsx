@@ -10,8 +10,8 @@ const HomeScreen :FC<HomeScreenProps>=({navigation})=>{
  return(
     <View style={styles.homeScreenContainer}>
   
-    <Button title={'Submit'} action={()=>{selectPage('SubmitVacation')}}/>
-    <Button title={'View'} action={()=>{selectPage('ViewVacation')}}/>
+    <Button title={'Purchase Phone'} action={()=>{selectPage('PurhcasePhone')}}/>
+
   </View>
  )
 }
